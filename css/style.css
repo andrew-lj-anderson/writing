@@ -125,3 +125,15 @@ footer {
   text-align: center;
   padding-bottom: 20px;
 }
+
+#construction ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+#construction ul li {
+  font-size: 40px;
+  text-align: center;
+  
+}
