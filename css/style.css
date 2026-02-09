@@ -22,13 +22,20 @@
 
 :root {
   --darkbrown: #452b07;
-  --lightbrown: #DDC493;
-  --beige: #FAECD1;
+  --lightbrown: #ddc493;
+  --beige: #faecd1;
   --olive: #B6CA8A;
 }
 
+/* CSS Reset */
+
+html, body, header, main, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 html {
-  /* background-image: linear-gradient(to bottom, var(--olive), #82945b) */
   background-image: url("../images/green-background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
